@@ -8,9 +8,10 @@ int main()
     int max;            // 擂主
 
     // ① 录入：一次全读进来，边读边加
+    printf("请输入成绩个数：");
     scanf("%d", &n);
     for(i = 0; i < n; i++) {
-        scanf("%d", &chengji[i]);   // 第 i 号座位 ← 输的第 i+1 个数
+        scanf("%d", &chengji[i]);   // 第 i 号座位 ← 你输的第 i+1 个数
         sum += chengji[i];
     }
 
